@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    transition: all 0.3s ease;
+}
+.weight-500 {
+    font-weight: 500;
+}
+.navbar-nav {
+    font-weight: 600;
+}
+.btn {
+    position: relative;
+    padding: 13.5px 36px;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.navbarDiv{
+background-image:url(../images/hero_section_background.jpg);
+background-repeat:no-repeat;
+background-position:right;
+background-size:100%;
+}
+.social-icons a{
+margin-right:15px;
+color:#999;    
+}
+.social-icons a:hover{
+color:#333;    
+}
+@media(max-width:768px){    
+    .banner-image{
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../images/hero_section_background.jpg);
+    background-repeat:no-repeat;
+background-position:right;
+background-size:contain;    
+    }  
+}
